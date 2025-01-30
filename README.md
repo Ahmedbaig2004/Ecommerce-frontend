@@ -1,1 +1,1 @@
-Ecommerce fromtend <3
+Ecommerce frontend <3
