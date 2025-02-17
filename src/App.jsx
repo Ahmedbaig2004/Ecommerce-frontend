@@ -12,6 +12,8 @@ import Placeorder from './pages/Placeorder'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import SearchBar from './components/SearchBar'
+import { Navigate } from 'react-router-dom'
+
 Home
 const App = () => {
   return (
@@ -28,6 +30,8 @@ const App = () => {
       <Route path='/login' element={<Login/>} />
       <Route path='/orders' element={<Orders/>} />
       <Route path='/place-order' element={<Placeorder/>} />
+      <Route path="*" element={<Navigate to="/" replace />}/>
+
 
 
 
